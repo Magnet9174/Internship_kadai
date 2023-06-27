@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <title>カレンダー</title>
+    <script type="text/javascript" src="calendar.js"></script>
+    <link rel="stylesheet" href="calendar.css">
+    <link rel="icon" type="image/png" href="calendar.png">
+</head>
+<body>
+    <div class="wrapper">
+        <!-- xxxx年xx月を表示 -->
+        <h1 id="header"></h1>
+    
+        <!-- ボタンクリックで月移動 -->
+        <div id="next-prev-button">
+            <button id="prev" onclick="prev()">‹ 前の月へ</button>
+            <button id="next" onclick="next()">次の月へ ›</button>
+        </div>
+        
+        <!-- カレンダー -->
+        <div id="calendar"></div><BR>
+
+        <!-- 何月かを入力して祝日の詳細を表示-->
+        <p1>何月かを入力して祝日の詳細を表示</p1><BR>
+        <input id="month" type="text" value="" /></input>
+        <input type="button" value="入力" onclick="addAnswer()" /></input>
+        <div id="shukuday"></div>
+    </div>
+
+</body>
+</html>

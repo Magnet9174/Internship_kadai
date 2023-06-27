@@ -1,0 +1,16 @@
+カレンダーを作る際に参考にしたサイト一覧
+
+【初心者向け】JavaScriptで祝日対応のカレンダー作成【サンプル】
+https://nyanblog2222.com/programming/javascript/2835/
+
+・プログラムの基本的な構造を参考にした。
+
+日本の祝日のついて -内閣府
+https://www8.cao.go.jp/chosei/shukujitsu/gaiyou.html
+
+・祝日の情報をここで得た。
+
+団塊爺ちゃんの備忘録
+https://www.jiichan.com/programming/programming.php?lang=js&no=02
+
+・〇週目の〇曜日にある祝日（成人の日や海の日など）の判定用メソッド howday の部分を参考にした。
